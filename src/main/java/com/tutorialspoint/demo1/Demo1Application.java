@@ -25,6 +25,7 @@ public class Demo1Application implements ApplicationRunner, CommandLineRunner {
 		logger.debug("debug log");
 		logger.trace("trace log");
 		System.out.println("linia 1");
+		System.out.println("linia 2");
 
 	}
 
