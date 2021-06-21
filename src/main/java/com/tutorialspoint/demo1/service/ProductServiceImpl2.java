@@ -41,4 +41,9 @@ public class ProductServiceImpl2 implements ProductService {
    public Collection<Product> getProducts() {
       return productRepo.values();
    }
+
+   @Override
+   public String getProductName() {
+	   return "service name = ProductServiceImpl2";
+   }
 }
